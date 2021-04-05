@@ -6,7 +6,7 @@ const defaultState = {
     sessionLength: 25,
     stateDisplay: "Session",
     timeLeft: 1500,
-}
+};
 
 export class Pomodoro extends Component {
     constructor(props) {
