@@ -94,9 +94,9 @@ export class Pomodoro extends Component {
         return (
             <div id="pomodoro" className="container">
                 <h1 className="text-center">Pomodoro Timer</h1>
-                <div className="row">
-                    <div className="col text-center">
-                        <h4 id="break-label">Break Length</h4><br />
+                <div className="row my-4">
+                    <div className="col-sm text-center">
+                        <h4 id="break-label">Break Length</h4>
                         <div className="input-group">
                             <div className="input-group-prepend">
                                 <button className="btn btn-primary" id="break-decrement" onClick={() => this.handleLengthClick("breakLength", "decrement")}>-</button>
@@ -107,8 +107,8 @@ export class Pomodoro extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col text-center">
-                        <h4 id="session-label">Session Length</h4><br />
+                    <div className="col-sm text-center">
+                        <h4 id="session-label">Session Length</h4>
                         <div className="input-group">
                             <div className="input-group-prepend">
                                 <button className="btn btn-primary" id="session-decrement" onClick={() => this.handleLengthClick("sessionLength", "decrement")}>-</button>
