@@ -60,7 +60,7 @@ export class Pomodoro extends Component {
         }
 
         document.getElementById("beep").pause();
-        document.getElementById("beep").fastSeek(0);
+        document.getElementById("beep").currentTime = 0;
         this.setState(defaultState);
     }
 
